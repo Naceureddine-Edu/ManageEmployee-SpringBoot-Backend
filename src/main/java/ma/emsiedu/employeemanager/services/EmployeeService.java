@@ -51,6 +51,6 @@ public class EmployeeService {
     {
         return employeeRepository.findEmployeeById(id)
                                  .orElseThrow(() ->
-                                  new UserNotFoundException("User With id :"+id+" Was Not Found"));
+                                  new UserNotFoundException("User With id :"+ id +" Was Not Found"));
     }
 }
