@@ -17,7 +17,7 @@ public class Employee implements Serializable {
     private String email;
     private String jobTitle;
     private String phoneNumber;
-
+    private String imageUrl;
     @Column(nullable = false, updatable = false)
     private String employeeCode;
 
